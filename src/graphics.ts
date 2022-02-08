@@ -37,6 +37,7 @@ export class Graphics {
       .density(this.density, this.density)
       .quality(this.quality)
       .background('white')
+      .flatten()
       .compress(this.compression)
   }
 
