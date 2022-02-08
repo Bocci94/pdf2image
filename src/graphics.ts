@@ -36,6 +36,7 @@ export class Graphics {
     return this.gm(stream, filename)
       .density(this.density, this.density)
       .quality(this.quality)
+      .background('white')
       .compress(this.compression)
   }
 
